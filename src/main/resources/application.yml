@@ -9,6 +9,11 @@ spring:
       url: jdbc:mysql://192.168.6.190:3307/reggie?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
       username: root
       password: 123456
+  redis:
+    host: 192.168.6.190
+    port: 6389
+#    password: 123456
+    database: 0
   mail:
     host: smtp.qq.com
     protocol: smtp
