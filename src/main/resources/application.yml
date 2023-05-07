@@ -12,8 +12,10 @@ spring:
   redis:
     host: 192.168.6.190
     port: 6389
-#    password: 123456
     database: 0
+  cache:
+    redis:
+      time-to-live: 1800000 #30min
   mail:
     host: smtp.qq.com
     protocol: smtp
